@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+# Testing directory
+/Testing
+
+# data files
+data.zip
+ 
+# Ignore zip files
+*.zip
+=======
+**/.DS_Store
+>>>>>>> 43d87e798439d1c7ee545f7311af3ab303ef00ac
