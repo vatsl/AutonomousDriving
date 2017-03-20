@@ -31,7 +31,7 @@ This project utilizes several computer vision algorithms and techniques to perfo
 * Warp the detected lane boundaries back onto the original image. Print the lane information on the image
 
 
-###Camera Calibration
+### Camera Calibration
 
 The code for this step is contained in the attached P4.ipynb file, more specifically in the Section 1.  
 
@@ -51,7 +51,7 @@ Here are the results of distortion correction on each of the test images (locate
 
 ---
 
-###Image Processing
+### Image Processing
 
 Section 2 of the code explains this process step-by-step, with examples of each individual threshold. In order, the thresholding used on the images is as follows:
 
@@ -119,7 +119,7 @@ Finally, plot the warped images back down onto the road such that, for each imag
 
 ### Output Video
  
-The output video is the file named **P4_output_video.mp4** which is in the same directory as this README file.
+The video is available [here](https://youtu.be/OaGEVN0uU1g).
 
 ### 
 
