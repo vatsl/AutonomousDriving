@@ -129,6 +129,3 @@ The video is available [here](https://youtu.be/OaGEVN0uU1g).
 
 This project was difficult in that it took a while to organize everything into a functioning system. 
 The first few steps required to calibrate the camera, undistort an image and produce a thresholded binary image were straightforward. However, the perspective transform and steps following that proved to be challenging. The video stream was significantly dependent on the color and gradient filters applied to the images, and I feel that if the pipeline were tested on a video taken at night, it would be unable to perform correct lane detections, as the parameters chosen for the color and gradient thresholds are tailored to a video taken during the day.
-
-I wanted to get a good performance on the challenge video as well, but I did not get enought time after completing the current assignment.
-I plan to work on that in the few weeks gap between the end of Term 1 and beginning of Term 2.
