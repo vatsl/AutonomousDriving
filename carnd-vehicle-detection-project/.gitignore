@@ -1,0 +1,6 @@
+*.mp4
+*.png
+*.zip
+vehicles/**
+non-vehicles/**
+*.pkl
