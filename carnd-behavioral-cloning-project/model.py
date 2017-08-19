@@ -1,7 +1,7 @@
 """
 Created by: Vatsal Srivastava
-Project 3: Behavioral Cloning
-Udacity - Self Driving Car Engineer Nanodegree - Nov'16
+Behavioral Cloning - Using Deep Learning and CNNs to predict 
+the steering angles for a car on the basis of the camera images.
 """
 
 import os
