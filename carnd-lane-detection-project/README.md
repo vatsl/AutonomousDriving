@@ -14,6 +14,9 @@
 ### Main File with the pipeline
 Lane_Detection.ipynb
 
+### Output Video
+The output video is available online at [YouTube](https://youtu.be/HeHoOSbkd6A) and in the file **final_output.mp4**.
+
 ### Future Work ###
 
 * The results seem to be satisfactory.
