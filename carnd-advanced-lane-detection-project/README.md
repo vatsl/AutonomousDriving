@@ -15,10 +15,16 @@
 [sliding_windows]: ./resources/output_images/sliding_windows.png
 [shaded_lanes]: ./resources/output_images/shaded_lanes.png
 [lane_mapping]: ./resources/output_images/lane_mapping.png
+[test_image1]: ./resources/test_images/test1.jpg
+[test_image2]: ./resources/test_images/test2.jpg
+[test_image3]: ./resources/test_images/test3.jpg
+[test_image4]: ./resources/test_images/test4.jpg
+[test_image5]: ./resources/test_images/test5.jpg
+[test_image6]: ./resources/test_images/test6.jpg
 
-### Advanced Lane Finding
+# Advanced Lane Finding
 
----
+**Source Code: Advanced_Lane_Detection.ipynb**
 
 This project utilizes several computer vision algorithms and techniques to perform advanced lane finding on test images and video streams. There following steps are involved: 
 
@@ -64,7 +70,7 @@ Section 2 of the code explains this process step-by-step, with examples of each 
 ![alt text][sobel_x]
 ![alt text][sobel_y]
 
-Next, using techniques from "Project 1 - Finding Lane Lines", conduct sanity checks. These techniques included Region Masking & Hough Lines, and the purpose for performing them was to ensure that the thresholding steps taken are accurate enough to yield proper perspective transforms.
+Next, using techniques from "Finding Lane Lines Project", conduct sanity checks. These techniques included Region Masking & Hough Lines, and the purpose for performing them was to ensure that the thresholding steps taken are accurate enough to yield proper perspective transforms.
 
 The region masking results are shown below. Region is masked with the following points: 
 
@@ -91,25 +97,25 @@ Shaded Lanes Technique:
 
 After detecting the lanes, calculate the radius of curvature for each of the polynomial fits. The results of these calculations are shown in the table below. Use the radius of curvature example code from Udacity's lessons to create the calculation cells.
 
-| Test Image | Radius of Curvature (Left) | Radius of Curvature (Right) | 
-|:----------:|:--------------------------:|:---------------------------:| 
-| test1.png  | 3101.953248meters          | 1373.981912 meters          | 
-| test2.png  | 2227.880643 meters         | 1447.535637 meters          |
-| test3.png  | 10088.084712 meters        | 1469.011088 meters          |
-| test4.png  | 330.567254 meters          | 1382.172793 meters          |
-| test5.png  | 381.390857 meters          | 1868.689683 meters          |
-| test6.png  | 411707.661 meters          | 1470.278540 meters          |
+| Test Image                | Radius of Curvature (Left) | Radius of Curvature (Right) | 
+|:-------------------------:|:--------------------------:|:---------------------------:| 
+| ![alt-text][test_image1]  | 3101.953248 meters         | 1373.981912 meters          | 
+| ![alt-text][test_image2]  | 2227.880643 meters         | 1447.535637 meters          |
+| ![alt-text][test_image3]  | 10088.08471 meters        | 1469.011088 meters          |
+| ![alt-text][test_image4]  | 330.567254 meters          | 1382.172793 meters          |
+| ![alt-text][test_image5]  | 381.390857 meters          | 1868.689683 meters          |
+| ![alt-text][test_image6]  | 411707.661 meters          | 1470.278540 meters          |
 
 Another calculation performed was the offset from the lane's center. The calculations are shown in the code cell following the radius of curvature, and yielded the following:
 
-| Test Image | Offset from Center |
-|:----------:|:------------------:| 
-| test1.png  | -0.070 meters    |
-| test2.png  | -0.063 meters    |
-| test3.png  | -0.168 meters    |
-| test4.png  | -0.192 meters    |
-| test5.png  | -0.255 meters    |
-| test6.png  | -0.225 meters    |
+| Test Image                | Offset from Center |
+|:-------------------------:|:------------------:| 
+| ![alt-text][test_image1]  | -0.070 meters      |
+| ![alt-text][test_image2]  | -0.063 meters      |
+| ![alt-text][test_image3]  | -0.168 meters      |
+| ![alt-text][test_image4]  | -0.192 meters      |
+| ![alt-text][test_image5]  | -0.255 meters      |
+| ![alt-text][test_image6]  | -0.225 meters      |
 
 Finally, plot the warped images back down onto the road such that, for each image, the lane area is identified clearly:
 
@@ -119,13 +125,13 @@ Finally, plot the warped images back down onto the road such that, for each imag
 
 ### Output Video
  
-The video is available [here](https://youtu.be/yqC3CT6Xx9E).
+The video is available on [YouTube](https://youtu.be/yqC3CT6Xx9E) and in the repository as **P4_output_video.mp4**.
 
 ### 
 
 ---
 
-### Discussion
+### Reflections
 
 This project was difficult in that it took a while to organize everything into a functioning system. 
 The first few steps required to calibrate the camera, undistort an image and produce a thresholded binary image were straightforward. However, the perspective transform and steps following that proved to be challenging. The video stream was significantly dependent on the color and gradient filters applied to the images, and I feel that if the pipeline were tested on a video taken at night, it would be unable to perform correct lane detections, as the parameters chosen for the color and gradient thresholds are tailored to a video taken during the day.

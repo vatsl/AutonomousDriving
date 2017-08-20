@@ -22,9 +22,9 @@ The goals / steps of this project are the following:
 
 ---
 
-###Histogram of Oriented Gradients (HOG)
+### Histogram of Oriented Gradients (HOG)
 
-####Extracting HOG features from the training images
+#### Extracting HOG features from the training images
 
 I used the *hog()* function from the skimage.feature package to extract the hog features. 
 
@@ -112,10 +112,11 @@ Heatmaps and thresholding on those heatmaps also helped in removing False positi
 
 ### Video Implementation
 
-**Output File: p5_result.mp4**
+The output video is available on [YouTube](https://youtu.be/Y3_8yzNPso4) and in the repositury as **p5_result.mp4**
 
+---
 
-**Filter for false positives and some method for combining overlapping bounding boxes.**
+#### Filter for false positives and some method for combining overlapping bounding boxes
 
 Method used for removing False positive has been discussed earlier.
 
