@@ -112,7 +112,7 @@ Heatmaps and thresholding on those heatmaps also helped in removing False positi
 
 ### Video Implementation
 
-The output video is available on [YouTube](https://youtu.be/Y3_8yzNPso4) and in the repositury as **p5_result.mp4**
+The output video is available on [YouTube](https://youtu.be/Y3_8yzNPso4) and in the repository as **p5_result.mp4**
 [![Final results with the implementation](http://img.youtube.com/vi/Y3_8yzNPso4/0.jpg)](http://www.youtube.com/watch?v=Y3_8yzNPso4)
 
 ---
