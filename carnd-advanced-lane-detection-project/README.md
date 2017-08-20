@@ -126,6 +126,7 @@ Finally, plot the warped images back down onto the road such that, for each imag
 ### Output Video
  
 The video is available on [YouTube](https://youtu.be/yqC3CT6Xx9E) and in the repository as **P4_output_video.mp4**.
+[![Final results with the implementation](http://img.youtube.com/vi/yqC3CT6Xx9E/0.jpg)](http://www.youtube.com/watch?v=yqC3CT6Xx9E)
 
 ### 
 
