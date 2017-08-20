@@ -1,4 +1,4 @@
-### What is this repository for? ###
+# Lane Detection with OpenCV
 
 * Detecting Lane Lines in an image or video of a Road using OpenCV
 
@@ -16,6 +16,7 @@ Lane_Detection.ipynb
 
 ### Output Video
 The output video is available online at [YouTube](https://youtu.be/HeHoOSbkd6A) and in the file **final_output.mp4**.
+[![Final results with the implementation](http://img.youtube.com/vi/HeHoOSbkd6A/0.jpg)](http://www.youtube.com/watch?v=HeHoOSbkd6A)
 
 ### Future Work ###
 
